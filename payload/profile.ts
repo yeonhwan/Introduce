@@ -1,47 +1,46 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone, faPen } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/_sample.jpg';
+import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import image from '../asset/me.png';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
   disable: false,
 
-  // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Lorem ipsum',
-    small: '(LI)',
+    title: '박연환',
+    small: '(FE)',
   },
   contact: [
     {
-      title: 'foo@bar.xyz',
-      link: '#',
+      title: 'yeonhwan619@gmail.com',
+      link: 'mailto:yeonhwan619@gmail.com',
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email',
+      title: '010-2789-5862',
       icon: faPhone,
       badge: true,
     },
     {
-      title: 'https://github.com',
-      link: 'https://github.com/uyu423/resume-nextjs',
+      title: 'https://github.com/yeonhwan',
+      link: 'https://github.com/yeonhwan?tab=repositories',
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/iu.loen',
-      icon: faFacebook,
+      title: '960619_',
+      link: 'https://www.instagram.com/960619_/',
+      icon: faInstagram,
     },
     {
-      title: 'YouTube',
-      link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
-      // icon: faRss,
-      icon: faYoutube,
+      title: 'yeonhwan619',
+      link: 'https://velog.io/@yeonhwan619',
+      icon: faPen,
     },
   ],
   notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
+    title: 'email 또는 휴대전화 메시지로 연락주시면 최대한 당일 연락드리겠습니다.',
     icon: faBell,
   },
 };

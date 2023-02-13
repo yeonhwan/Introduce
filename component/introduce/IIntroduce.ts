@@ -22,7 +22,6 @@ export declare namespace IIntroduce {
      * @description 그냥 있어보여서 추가해봤다.
      */
 
-    sign: string;
     /**
      * ### 마지막 업데이트 날짜
      *

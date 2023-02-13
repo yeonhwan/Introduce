@@ -8,7 +8,7 @@ import presentation from './presentation';
 import education from './education';
 import article from './article';
 import etc from './etc';
-import footer from './footer';
+// import footer from './footer';
 
 import { _global } from './_global';
 
@@ -21,7 +21,7 @@ import { IProject } from '../component/project/IProject';
 import { IPresentation } from '../component/presentation/IPresentation';
 import { IEducation } from '../component/education/IEducation';
 import { IEtc } from '../component/etc/IEtc';
-import { IFooter } from '../component/footer/IFooter';
+// import { IFooter } from '../component/footer/IFooter';
 import { IGlobal } from '../component/common/IGlobal';
 import { IArticle } from '../component/article/IArticle';
 
@@ -36,7 +36,7 @@ const Payload: Payload = {
   article,
   education,
   etc,
-  footer,
+  // footer,
 
   _global,
 };
@@ -52,7 +52,7 @@ interface Payload {
   education: IEducation.Payload;
   article: IArticle.Payload;
   etc: IEtc.Payload;
-  footer: IFooter.Payload;
+  // footer: IFooter.Payload;
 
   _global: IGlobal.Payload;
 }

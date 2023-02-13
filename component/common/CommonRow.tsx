@@ -14,7 +14,7 @@ export function CommonRows({
 
   return (
     <div>
-      {index > 0 ? <hr /> : ''}
+      {index > 0 ? <hr style={{ borderTop: '1px solid #414141' }} /> : ''}
       <Row>
         <Col sm={12} md={3} className="text-md-right">
           <Row>

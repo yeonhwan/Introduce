@@ -1,17 +1,17 @@
 import { IIntroduce } from '../component/introduce/IIntroduce';
-import { lastestUpdatedAt } from '../package.json';
 
 const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer massa magna, feugiat commodo arcu sed, sagittis sollicitudin tortor. Nullam diam ex, interdum nec lacus vel, ultrices pretium sapien. Proin bibendum non nibh eu aliquet. In sit amet arcu sed nisi tincidunt ultricies. Fusce magna tellus, egestas at pretium quis, rutrum et ante. Phasellus efficitur lectus felis, sed lacinia enim rhoncus ut. Sed id mi vitae neque aliquet porttitor. Fusce dignissim ipsum urna, at finibus lectus sodales ut. Nulla ut purus vestibulum, dapibus tellus consequat, porttitor purus. Nunc egestas tortor ut vehicula mollis.',
-    'Integer ut libero eu libero mattis rutrum at at urna. Integer non turpis ante. Suspendisse vestibulum odio id libero facilisis gravida. In ipsum est, pellentesque vestibulum tortor eu, bibendum imperdiet metus. Quisque ornare eget ex ut congue. Nam vel finibus sem. Phasellus id neque nibh. Nullam turpis velit, pharetra vitae mi non, bibendum maximus urna.',
+    '새로운 걸 배우고 생각하는 게 가장 즐거운 박연환입니다.',
+    '대학생 시절, PPT 디자인에 관심이 많았던 저는 UI / UX 개발에 대해서 접한 이후 본격적으로 프론트엔드에 관심을 갖기 시작했습니다. 프론트엔드 개발에 대해 스스로 학습하고 코드를 작성해 나갈수록 내가 생각했던 디자인이 실제로 기능하는 어플리케이션이 될 수 있다는 점이 프론트엔드 개발자가 되고 싶다는 큰 동기가 되었습니다.',
+    '프론트엔드 웹 개발에 대해서 학습하기 위해 3개월 독학, 부트캠프(코드스테이츠) 6개월 과정을 통해 HTML, CSS, JS, React 등에 대해서 학습하고 백엔드 팀과 함께 웹 어플리케이션 제작 프로젝트를 두 번 진행하였습니다.',
+    'React와 같은 프론트엔드 오픈소스 라이브러리에 기여 할 수 있는 개발자, 더 나아가 나만의 라이브러리 또는 서비스를 통해서 자바스크립트 및 프론트엔드 생태계에 의미있는 기여를 할 수 있는 개발자로 성장하고 싶습니다.',
+    '부트캠프 수료 후 알고리즘, 타입스크립트, SSR, 컴포넌트 디자인, 자바스크립트 클린코드 에 대해서 공부하고 있으며 React, CSS, 라이브러리 들을 활용해 다양한 토이프로젝트를 개발하고 있습니다.',
+    '음악, 사진, 요리, 여행 등 새로운 감각과 생각을 얻을 수 있는 활동을 좋아합니다.',
   ],
-  sign: 'Love poem',
-  // sign: packageJson.author.name,
-  // latestUpdated: '2019-07-24',
-  latestUpdated: lastestUpdatedAt,
+  latestUpdated: '2023-02-13',
 };
 
 export default introduce;

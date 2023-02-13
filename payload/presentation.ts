@@ -5,16 +5,13 @@ const presentation: IPresentation.Payload = {
 
   list: [
     {
-      title: 'Lorem ipsum',
-      subTitle: 'consectetur adipiscing elit',
-      at: '2017-10',
+      title: 'Indiego 서비스 프레젠테이션',
+      subTitle: 'Indiego 서비스 주요 기능 소개 및 개인 기술 발표',
+      at: '2022-02',
       descriptions: [
         {
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        },
-        {
-          content: 'Slideshare:',
-          postHref: 'https://www.slideshare.net//',
+          content: '발표 영상 : ',
+          postHref: 'https://www.youtube.com/watch?v=mAVOHrJuX6Y',
         },
       ],
     },

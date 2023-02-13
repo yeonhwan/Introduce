@@ -17,7 +17,7 @@ export default class ResumeDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body>
+        <body style={{ backgroundColor: '#212529' }} className="bg-gray-900 text-light">
           <Main />
           <NextScript />
         </body>

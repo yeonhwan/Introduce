@@ -34,7 +34,9 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
         </Col>
         <Col sm={12} md={9}>
           {payload.contents.map((content, index) => (
-            <p key={index.toString()}>{content}</p>
+            <p style={{ fontWeight: index === 0 ? 800 : 300 }} key={index.toString()}>
+              {content}
+            </p>
           ))}
           <p className="text-right">
             <small>Latest Updated</small>{' '}
@@ -44,9 +46,7 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
               )} (D+${latestUpdatedByNow})`}
             </Badge>
           </p>
-          <p className="text-right" style={Style.sign}>
-            {payload.sign}
-          </p>
+          <p className="text-right" style={Style.sign} />
         </Col>
       </Row>
     </div>
