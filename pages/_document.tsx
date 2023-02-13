@@ -16,7 +16,7 @@ export default class ResumeDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Parisienne&display=swap"
             rel="stylesheet"
           />
-          <base href="/" />
+          <base href="./" />
         </Head>
         <body style={{ backgroundColor: '#212529' }} className="bg-gray-900 text-light">
           <Main />
